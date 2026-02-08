@@ -1,0 +1,50 @@
+body{
+    background-color: #1d9056;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#google_href1{
+    color: #ffffff;
+}
+
+#media_sololevel{
+    border-radius: 10px;
+}
+
+#text_id{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#name_ch{
+    border-style: solid;
+    border-width: 5px;
+    border-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+#text_id2 {
+    border-bottom: 3px solid red;
+    border-top: 3px solid green;
+    border-left: 3px solid blue;
+    border-right: 3px solid yellow;
+    border-radius: 10px;
+}
+
+#shadow {
+    text-shadow: 2px 2px 5px blue, -2px -2px 5px black;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    box-shadow: 3px 3px 5px;
+}

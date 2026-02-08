@@ -1,4 +1,5 @@
 body{
+    display: flow-root;
     background-color: #1d9056;
 }
 
@@ -47,4 +48,37 @@ h1{
     height: 100px;
     background-color: blue;
     box-shadow: 3px 3px 5px;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 2em;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+#new_box1 {
+    background-color: red;
+}
+
+#new_box2 {
+    background-color: rgb(152, 152, 255);
+}
+
+#new_main_div {
+    border: 5px solid;
+    background-color: rgb(152, 152, 255);
+    width: 100px;
+    height: 100px;
+}
+
+#im_1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#im_2 {
+    float: right;
+    margin-right: 10px;
 }

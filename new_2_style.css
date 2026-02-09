@@ -39,3 +39,69 @@
 .dropdown a:hover{
     background-color: rgb(182, 193, 182);
 }
+
+.galary{
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 5px;
+    width: 250px;
+
+}
+
+.galary .descriptions{
+    padding: 10px;
+    text-align: center;
+}
+
+.galary:hover{
+    background-color: rgb(182, 193, 182);
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.galary img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    /* justify-content: space-evenly; */
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+    /* column-gap: 3em;
+    row-gap: 3em; */
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1 {
+    background-color: red;
+    order: 1;
+    align-self: self-end;
+}
+
+#box2 {
+    background-color: yellow;
+    align-self: center;
+}
+
+#box3 {
+    background-color: green;
+    order: -3;
+}
+
+#box4 {
+    background-color: blue;
+    align-self: self-end;
+    order: 1;
+}
